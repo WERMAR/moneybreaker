@@ -1,7 +1,5 @@
 <!-- English strings.xml -->
 <resources>
     <string name="app_name">moneybreaker</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registration_title">Registration</string>
 </resources>

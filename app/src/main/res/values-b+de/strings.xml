@@ -1,4 +1,5 @@
 <!-- German strings.xml -->
 <resources>
     <string name="app_name">moneybreaker</string>
+    <string name="registration_title">Registrieren</string>
 </resources>
