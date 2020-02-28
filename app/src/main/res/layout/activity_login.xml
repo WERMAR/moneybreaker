@@ -17,23 +17,23 @@
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="35sp"
+        android:layout_marginTop="45dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@id/registration"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/registration"
+        android:id="@+id/registrationButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/login_button"
+        android:background="@drawable/registration_button"
         android:text="Registrieren"
         android:textSize="23sp"
         app:layout_constraintBottom_toTopOf="@id/loginButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/title" />
+        android:layout_marginBottom="25dp"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/loginButton"
@@ -42,8 +42,9 @@
         android:background="@drawable/login_button"
         android:text="Login"
         android:textSize="23sp"
+        android:layout_marginBottom="105dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/registration" />
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
